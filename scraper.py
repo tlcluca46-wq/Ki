@@ -1,46 +1,73 @@
 import cloudscraper
 from bs4 import BeautifulSoup
 import json
-import time
+import sys
 
-def estrai_streameast(scraper):
-    canali = []
+def genera_lista():
+    # Simuliamo un browser Android per bypassare i blocchi
+    scraper = cloudscraper.create_scraper(
+        browser={'browser': 'chrome', 'platform': 'android', 'desktop': False}
+    )
+    lista_totale = []
+
+    # --- SCANSIONE STREAMEAST ---
     try:
-        res = scraper.get("https://www.streameast24.com", timeout=15)
-        soup = BeautifulSoup(res.text, 'html.parser')
-        for a in soup.find_all('a', href=True):
-            if any(x in a['href'] for x in ["/stream/", "/match/"]):
-                nome = a.get_text(" ", strip=True)
+        print("Scansione Streameast in corso...")
+        r_st = scraper.get("https://www.streameast24.com", timeout=15)
+        soup_st = BeautifulSoup(r_st.text, 'html.parser')
+        for a in soup_st.find_all('a', href=True):
+            href = a['href']
+            if "/stream/" in href or "/match/" in href:
+                nome = a.get_text(strip=True)
                 if nome:
-                    canali.append({
+                    lista_totale.append({
                         "name": f"ST | {nome}",
-                        "url": a['href'] if a['href'].startswith('http') else f"https://www.streameast24.com{a['href']}",
+                        "url": href if href.startswith('http') else f"https://www.streameast24.com{href}",
                         "image": "https://www.streameast24.com/favicon.ico",
                         "isHost": True
                     })
     except Exception as e:
         print(f"Errore Streameast: {e}")
-    return canali
 
-def estrai_the_tv(scraper):
-    canali = []
+    # --- SCANSIONE THE-TV.APP ---
     try:
-        # Questo sito spesso richiede un 'referer' per mostrare i contenuti
+        print("Scansione The-TV.app in corso...")
+        # Aggiungiamo un referer specifico per questo sito
         headers = {'Referer': 'https://the-tv.app/'}
-        res = scraper.get("https://the-tv.app/", timeout=15, headers=headers)
-        soup = BeautifulSoup(res.text, 'html.parser')
-        
-        # Cerchiamo i blocchi che contengono gli eventi
-        # Spesso sono link con classi tipo 'channel-card' o dentro liste specifiche
-        for a in soup.find_all('a', href=True):
+        r_tv = scraper.get("https://the-tv.app", timeout=15, headers=headers)
+        soup_tv = BeautifulSoup(r_tv.text, 'html.parser')
+        for a in soup_tv.find_all('a', href=True):
             href = a['href']
-            # Filtriamo per i link ai canali o eventi live
-            if "/tv/" in href or "/event/" in href:
-                # Recuperiamo tutto il testo (che di solito include orario e nome)
+            if "/event/" in href or "/tv/" in href:
                 testo = a.get_text(" ", strip=True)
-                
-                # Pulizia minima del testo
-                if testo and len(testo) > 5:
-                    full_url = href if href.startswith('http') else f"https://the-tv.app{href}"
-                    canali.append({
-                        "name": f"TV | {testo
+                if len(testo) > 3:
+                    lista_totale.append({
+                        "name": f"TV | {testo}",
+                        "url": href if href.startswith('http') else f"https://the-tv.app{href}",
+                        "image": "https://the-tv.app/favicon.ico",
+                        "isHost": True
+                    })
+    except Exception as e:
+        print(f"Errore The-TV: {e}")
+
+    # --- CREAZIONE FILE JSON ---
+    if not lista_totale:
+        lista_totale.append({
+            "name": "⚠️ Nessun match trovato al momento",
+            "url": "https://google.com",
+            "isHost": True
+        })
+
+    output = {
+        "name": "I Miei Sport Live",
+        "author": "AutoUpdate",
+        "groups": [{"name": "Eventi Live", "stations": lista_totale}]
+    }
+
+    with open("playlist.json", "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=4, ensure_ascii=False)
+    
+    print(f"Finito! Trovati {len(lista_totale)} canali.")
+
+if __name__ == "__main__":
+    genera_lista()
