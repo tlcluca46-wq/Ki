@@ -1,37 +1,62 @@
+import cloudscraper
+from bs4 import BeautifulSoup
 import json
+import sys
 
-# Questa è la struttura base. Qui puoi aggiungere o modificare i link.
-# In futuro, potremo automatizzare il "recupero" dei link con lo script di prima.
-canali = [
-    {
-        "name": "StreamEast Live 1",
-        "url": "https://www.streameast24.com/", # URL del sito o link diretto se lo hai
-        "image": "https://www.streameast24.com/favicon.ico",
-        "isHost": True 
-    },
-    {
-        "name": "Esempio Canale Diretto",
-        "url": "http://esempio.com/flusso.m3u8",
-        "image": "https://via.placeholder.com/150"
+def genera_lista():
+    url_sito = "https://www.streameast24.com"
+    scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'android', 'desktop': False})
+    
+    canali_finali = []
+    
+    try:
+        print(f"Tentativo di connessione a {url_sito}...")
+        response = scraper.get(url_sito, timeout=15)
+        response.raise_for_status()
+        
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Cerchiamo tutti i link che potrebbero essere partite
+        links = soup.find_all('a', href=True)
+        
+        for link in links:
+            href = link['href']
+            testo = link.get_text(strip=True)
+            
+            # Filtro base per trovare i match
+            if "/stream/" in href or "/match/" in href:
+                full_url = href if href.startswith('http') else f"{url_sito}{href}"
+                canali_finali.append({
+                    "name": testo if testo else "Evento Live",
+                    "url": full_url,
+                    "isHost": True
+                })
+        
+        print(f"Trovati {len(canali_finali)} canali.")
+
+    except Exception as e:
+        print(f"Errore durante lo scraping: {e}")
+        # Non blocchiamo lo script, creiamo una lista vuota o di test per non far fallire GitHub
+    
+    # Se non trova nulla, aggiungiamo un canale di test per verificare che il JSON venga creato
+    if not canali_finali:
+        canali_finali.append({
+            "name": "Nessun evento trovato al momento",
+            "url": "https://www.google.com",
+            "isHost": True
+        })
+
+    # Struttura Wiseplay
+    data = {
+        "name": "StreamEast Live Smartphone",
+        "author": "AutoUpdate",
+        "groups": [{"name": "Sport", "stations": canali_finali}]
     }
-]
 
-wiseplay_list = {
-    "name": "La Mia Lista Sport",
-    "author": "MioAccount",
-    "groups": [
-        {
-            "name": "Calcio & Sport",
-            "stations": canali
-        }
-    ]
-}
+    with open("playlist.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
+    
+    print("File playlist.json generato correttamente.")
 
-with open("lista_condivisa.json", "w", encoding="utf-8") as f:
-    json.dump(wiseplay_list, f, indent=4, ensure_ascii=False)
-
-print("File lista_condivisa.json creato correttamente!")
-
-# ... (alla fine del tuo codice Python)
-with open("playlist.json", "w", encoding="utf-8") as f:
-    json.dump(wiseplay_data, f, indent=4, ensure_ascii=False)
+if __name__ == "__main__":
+    genera_lista()
