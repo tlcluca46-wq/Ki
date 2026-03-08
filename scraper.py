@@ -1,63 +1,42 @@
 import cloudscraper
 from bs4 import BeautifulSoup
 import json
+import datetime
 
-def estrai(url, nome_prefisso, scraper):
+def estrai_streameast(scraper):
     canali = []
     try:
-        # Usiamo un timeout più lungo e un header più realistico
-        res = scraper.get(url, timeout=20)
-        if res.status_code != 200:
-            print(f"Errore {res.status_code} su {url}")
-            return []
-            
+        res = scraper.get("https://www.streameast24.com", timeout=15)
         soup = BeautifulSoup(res.text, 'html.parser')
-        # Cerchiamo TUTTI i link che portano a partite (filtro largo)
         for a in soup.find_all('a', href=True):
-            href = a['href']
-            testo = a.get_text(" ", strip=True)
-            
-            # Cattura link con parole chiave comuni nello streaming
-            if any(x in href.lower() for x in ['/stream', '/match', '/webcast', '/live', '/watch']):
-                full_url = href if href.startswith('http') else f"{url.rstrip('/')}/{href.lstrip('/')}"
-                if len(testo) > 3: # Evita link vuoti
+            if any(x in a['href'] for x in ["/stream/", "/match/"]):
+                nome = a.get_text(" ", strip=True)
+                if nome:
                     canali.append({
-                        "name": f"{nome_prefisso} | {testo}",
-                        "url": full_url,
-                        "image": "https://via.placeholder.com/150", # Logo temporaneo
+                        "name": f"ST | {nome}",
+                        "url": a['href'] if a['href'].startswith('http') else f"https://www.streameast24.com{a['href']}",
+                        "image": "https://www.streameast24.com/favicon.ico",
                         "isHost": True
                     })
-        return canali
-    except Exception as e:
-        print(f"Errore critico su {url}: {e}")
-        return []
+    except: pass
+    return canali
 
-def genera():
-    # Creiamo uno scraper che simula perfettamente un browser mobile
-    scraper = cloudscraper.create_scraper(
-        browser={
-            'browser': 'chrome',
-            'platform': 'android',
-            'desktop': False
-        }
-    )
-    
-    st = estrai("https://www.streameast24.com", "ST", scraper)
-    bs = estrai("https://buffstreams.plus/index7", "BS", scraper)
-    
-    # Se entrambi falliscono, mettiamo un segnale di debug
-    if not st and not bs:
-        risultato = [{"name": "⚠️ Siti bloccati o nessuna partita ora", "url": "https://google.com"}]
-    else:
-        risultato = st + bs
-
-    data = {
-        "name": "Lista Sport Live",
-        "groups": [{"name": "Eventi", "stations": risultato}]
-    }
-    
-    with open("playlist.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
-
-if __name__ == "__main__":
-    genera()
+def estrai_the_tv(scraper):
+    canali = []
+    try:
+        url_base = "https://the-tv.app"
+        res = scraper.get(url_base, timeout=15)
+        soup = BeautifulSoup(res.text, 'html.parser')
+        
+        # In the-tv.app gli eventi sono spesso in card o liste con orari
+        # Cerchiamo i link che portano ai canali o eventi
+        for item in soup.find_all(['a', 'div'], class_=True):
+            # Questa parte cerca di identificare i blocchi evento (classi comuni: 'event', 'channel')
+            link = item if item.name == 'a' else item.find('a', href=True)
+            if link and link.get('href'):
+                href = link['href']
+                # Prendiamo solo link pertinenti
+                if "/tv/" in href or "/event/" in href:
+                    testo = item.get_text(" ", strip=True)
+                    # Spesso l'orario è contenuto nel testo o in uno span specifico
+                    # Esempio: "20:45 Milan
