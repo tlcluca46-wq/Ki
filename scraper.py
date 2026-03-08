@@ -31,3 +31,7 @@ with open("lista_condivisa.json", "w", encoding="utf-8") as f:
     json.dump(wiseplay_list, f, indent=4, ensure_ascii=False)
 
 print("File lista_condivisa.json creato correttamente!")
+
+# ... (alla fine del tuo codice Python)
+with open("playlist.json", "w", encoding="utf-8") as f:
+    json.dump(wiseplay_data, f, indent=4, ensure_ascii=False)
