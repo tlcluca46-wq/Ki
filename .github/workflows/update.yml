@@ -2,11 +2,11 @@ name: Aggiorna Lista Wiseplay
 
 on:
   schedule:
-    - cron: '0 * * * *' # Gira ogni ora
-  workflow_dispatch: # Ti permette di avviarlo a mano dallo smartphone
+    - cron: '0 * * * *' # Gira automaticamente ogni ora
+  workflow_dispatch: # Permette l'avvio manuale da smartphone
 
 permissions:
-  contents: write # Forza i permessi di scrittura direttamente nel workflow
+  contents: write
 
 jobs:
   build:
@@ -21,7 +21,7 @@ jobs:
           python-version: '3.9'
 
       - name: Installa librerie
-        run: pip install cloudscraper beautifulsoup4
+        run: pip install cloudscraper beautifulsoup4 brotli
 
       - name: Esegui lo script
         run: python scraper.py
