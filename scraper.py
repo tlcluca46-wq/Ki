@@ -3,69 +3,76 @@ from bs4 import BeautifulSoup
 import json
 import datetime
 
-def estrai_dati(url, scraper, parole_chiave):
+def estrai_streameast(scraper):
     canali = []
     try:
-        print(f"Analizzando: {url}")
-        response = scraper.get(url, timeout=15)
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        # Cerchiamo tutti i link
-        links = soup.find_all('a', href=True)
-        
-        for link in links:
-            href = link['href']
-            testo = link.get_text(" ", strip=True)
-            
-            # Filtro: il link deve contenere una delle parole chiave (es. 'webcast' o 'stream')
-            if any(key in href.lower() for key in parole_chiave):
-                # Gestione URL relativi
-                if href.startswith('/'):
-                    # Estraiamo il dominio base (es. https://buffstreams.plus)
-                    base = "/".join(url.split("/")[:3])
-                    full_url = f"{base}{href}"
-                else:
-                    full_url = href
-                
-                # Cerchiamo l'immagine
-                img = link.find('img')
-                img_url = img['src'] if img and img.get('src') else ""
-                if img_url and img_url.startswith('/'):
-                    base = "/".join(url.split("/")[:3])
-                    img_url = f"{base}{img_url}"
-
-                # Evitiamo duplicati o link vuoti
-                if testo and full_url not in [c['url'] for c in canali]:
+        res = scraper.get("https://www.streameast24.com", timeout=15)
+        soup = BeautifulSoup(res.text, 'html.parser')
+        for a in soup.find_all('a', href=True):
+            if "/stream/" in a['href'] or "/match/" in a['href']:
+                nome = a.get_text(" ", strip=True)
+                if nome:
                     canali.append({
-                        "name": testo,
-                        "url": full_url,
-                        "image": img_url if img_url else "https://buffstreams.plus/favicon.ico",
+                        "name": f"ST | {nome}",
+                        "url": a['href'] if a['href'].startswith('http') else f"https://www.streameast24.com{a['href']}",
+                        "image": "https://www.streameast24.com/favicon.ico",
                         "isHost": True
                     })
-        return canali
-    except Exception as e:
-        print(f"Errore su {url}: {e}")
-        return []
+    except Exception as e: print(f"Errore ST: {e}")
+    return canali
 
-def genera_lista_multisito():
+def estrai_buffstreams(scraper):
+    canali = []
+    try:
+        # Buffstreams usa spesso questa struttura per i match live
+        url = "https://buffstreams.plus/index7"
+        res = scraper.get(url, timeout=15)
+        soup = BeautifulSoup(res.text, 'html.parser')
+        
+        # Cerchiamo i "match-box" o i link che contengono webcast
+        items = soup.select('a[href*="/webcast/"], a[href*="/watch/"]')
+        
+        for item in items:
+            href = item['href']
+            # Pulizia nome: spesso il testo è diviso in più span (squadra A, orario, squadra B)
+            nome = item.get_text(" ", strip=True)
+            
+            img = item.find('img')
+            img_url = img['src'] if img and img.get('src') else "https://buffstreams.plus/favicon.ico"
+            
+            if not img_url.startswith('http'):
+                img_url = f"https://buffstreams.plus{img_url}"
+
+            full_url = href if href.startswith('http') else f"https://buffstreams.plus{href}"
+            
+            if nome and "/webcast/" in full_url:
+                canali.append({
+                    "name": f"BS | {nome}",
+                    "url": full_url,
+                    "image": img_url,
+                    "isHost": True
+                })
+    except Exception as e: print(f"Errore BS: {e}")
+    return canali
+
+def genera_lista():
     scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'android', 'desktop': False})
     
-    # Parole chiave specifiche per Buffstreams: spesso usano 'webcast' o 'watch'
-    canali_streameast = estrai_dati("https://www.streameast24.com", scraper, ["/stream/", "/match/"])
-    canali_buff = estrai_dati("https://buffstreams.plus/index7", scraper, ["/webcast/", "/watch/", "buffstreams.plus/"])
-
+    st_list = estrai_streameast(scraper)
+    bs_list = estrai_buffstreams(scraper)
+    
     data = {
-        "name": "Super Lista Sport",
-        "author": "AutoUpdate",
+        "name": "Live Sports Hub",
+        "author": "Gemini-AI",
         "groups": [
-            {"name": "🔴 STREAM EAST", "stations": canali_streameast},
-            {"name": "🔵 BUFF STREAMS", "stations": canali_buff}
+            {"name": "🔴 STREAM EAST", "stations": st_list},
+            {"name": "🔵 BUFF STREAMS", "stations": bs_list}
         ]
     }
-
+    
     with open("playlist.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
-    print(f"Completato! Streameast: {len(canali_streameast)} | Buff: {len(canali_buff)}")
+    print(f"Aggiornamento completato. Totale canali: {len(st_list) + len(bs_list)}")
 
 if __name__ == "__main__":
-    genera_lista_multisito()
+    genera_lista()
