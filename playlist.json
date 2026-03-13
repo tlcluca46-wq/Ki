@@ -6,12 +6,6 @@
             "name": "Eventi Live",
             "stations": [
                 {
-                    "name": "ST | FerencvarosLive nowSporting Braga",
-                    "url": "https://www.streameast24.com/live/uefa-europa-league/match/ferencvaros-vs-sporting-braga/69b2728162673af5aa150773",
-                    "image": "https://www.streameast24.com/favicon.ico",
-                    "isHost": true
-                },
-                {
                     "name": "ST | Crystal PalaceLive nowAEK Larnaca",
                     "url": "https://www.streameast24.com/live/uefa-europa-conference-league/match/crystal-palace-vs-aek-larnaca/69b2728162673af5aa15077a",
                     "image": "https://www.streameast24.com/favicon.ico",
@@ -44,12 +38,6 @@
                 {
                     "name": "ST | Celta de VigoLive nowOlympique Lyonnais",
                     "url": "https://www.streameast24.com/live/uefa-europa-league/match/celta-de-vigo-vs-olympique-lyonnais/69b2728162673af5aa15076d",
-                    "image": "https://www.streameast24.com/favicon.ico",
-                    "isHost": true
-                },
-                {
-                    "name": "ST | FerencvarosLive nowSporting Braga",
-                    "url": "https://www.streameast24.com/live/uefa-europa-league/match/ferencvaros-vs-sporting-braga/69b2728162673af5aa150773",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
