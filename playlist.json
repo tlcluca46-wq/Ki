@@ -12,14 +12,26 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | West Ham UnitedLive nowManchester City",
-                    "url": "https://www.streameast24.com/live/important-games/match/west-ham-united-vs-manchester-city/69b5158162673af5aa1507d8",
+                    "name": "ST | UFC Fight Night EmmettLive nowVallejos",
+                    "url": "https://www.streameast24.com/live/ufc/match/ufc-fight-night-emmett-vs-vallejos/69a93a1e62673af5aa1505f1",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | UFC Fight Night EmmettLive nowVallejos",
-                    "url": "https://www.streameast24.com/live/ufc/match/ufc-fight-night-emmett-vs-vallejos/69a93a1e62673af5aa1505f1",
+                    "name": "ST | Arnold BarbozaLive nowKenneth Sims Jr",
+                    "url": "https://www.streameast24.com/live/boxing/match/arnold-barboza-vs-kenneth-sims-jr/69a151d162673af5aa150497",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Nonito Donairein 3h 26mRiku Masuda",
+                    "url": "https://www.streameast24.com/live/boxing/match/nonito-donaire-vs-riku-masuda/698c39d262673af5aa150108",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | NASCAR Las Vegas Motor SpeedwayLive nowLive",
+                    "url": "https://www.streameast24.com/live/f1/match/nascar-las-vegas-motor-speedway-vs-live/694263b562673af5aa14f6a4",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
@@ -144,7 +156,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | BNP Paribas Nordic Openin 1h 56mTennis",
+                    "name": "ST | BNP Paribas Nordic OpenLive nowTennis",
                     "url": "https://www.streameast24.com/live/tennis/match/bnp-paribas-nordic-open-vs-tennis/69562d0662673af5aa14f984",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -234,19 +246,19 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Fijian Druain 3h 31mBrumbies",
+                    "name": "ST | Fijian Druain 1h 1mBrumbies",
                     "url": "https://www.streameast24.com/live/rugby/match/fijian-drua-vs-brumbies/6933cc0362673af5aa14f44f",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Crusadersin 6h 1mHighlanders",
+                    "name": "ST | Crusadersin 3h 31mHighlanders",
                     "url": "https://www.streameast24.com/live/rugby/match/crusaders-vs-highlanders/6933cc0362673af5aa14f450",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Redsin 8h 31mWaratahs",
+                    "name": "ST | Redsin 6h 1mWaratahs",
                     "url": "https://www.streameast24.com/live/rugby/match/reds-vs-waratahs/6933cc0362673af5aa14f451",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -342,19 +354,19 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Charlottein 26mInter Miami",
+                    "name": "ST | CharlotteLive nowInter Miami",
                     "url": "https://www.streameast24.com/live/mls/match/charlotte-vs-inter-miami/69b5159862673af5aa150836",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Orlando City SCin 26mCF Montreal",
+                    "name": "ST | Orlando City SCLive nowCF Montreal",
                     "url": "https://www.streameast24.com/live/mls/match/orlando-city-sc-vs-cf-montreal/69b5159862673af5aa150835",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | New York Cityin 26mColorado Rapids",
+                    "name": "ST | New York CityLive nowColorado Rapids",
                     "url": "https://www.streameast24.com/live/mls/match/new-york-city-vs-colorado-rapids/69b5159862673af5aa150838",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -684,7 +696,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | New York Cityin 26mColorado Rapids",
+                    "name": "ST | New York CityLive nowColorado Rapids",
                     "url": "https://www.streameast24.com/live/afc-champions-league/match/new-york-city-vs-colorado-rapids/69b5158262673af5aa15082b",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -714,19 +726,19 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Miami Heatin 2mOrlando Magic",
+                    "name": "ST | Miami HeatLive nowOrlando Magic",
                     "url": "https://www.streameast24.com/live/nba/match/miami-heat-vs-orlando-magic/693a702a62673af5aa14f563",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Los Angeles Lakersin 2mDenver Nuggets",
+                    "name": "ST | Los Angeles LakersLive nowDenver Nuggets",
                     "url": "https://www.streameast24.com/live/nba/match/los-angeles-lakers-vs-denver-nuggets/693a702a62673af5aa14f564",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | LA Clippersin 2mSacramento Kings",
+                    "name": "ST | LA ClippersLive nowSacramento Kings",
                     "url": "https://www.streameast24.com/live/nba/match/la-clippers-vs-sacramento-kings/693a702a62673af5aa14f565",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
