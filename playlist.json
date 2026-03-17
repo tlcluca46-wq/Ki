@@ -6,6 +6,12 @@
             "name": "Eventi Live",
             "stations": [
                 {
+                    "name": "ST | Italy BaseballLive nowVenezuela Baseball",
+                    "url": "https://www.streameast24.com/live/baseball/match/italy-baseball-vs-venezuela-baseball/69b893383b094370ce1a1f42",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
                     "name": "ST | BrentfordLive nowWolverhampton Wanderers",
                     "url": "https://www.streameast24.com/live/premier-league/match/brentford-vs-wolverhampton-wanderers/69b7b88262673af5aa1508ab",
                     "image": "https://www.streameast24.com/favicon.ico",
@@ -36,19 +42,19 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | BNP Paribas Nordic Openin 1h 38mTennis",
+                    "name": "ST | BNP Paribas Nordic OpenLive nowTennis",
                     "url": "https://www.streameast24.com/live/tennis/match/bnp-paribas-nordic-open-vs-tennis/69562d0662673af5aa14f984",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Miami Openin 1h 38mTennis",
+                    "name": "ST | Miami OpenLive nowTennis",
                     "url": "https://www.streameast24.com/live/tennis/match/miami-open-vs-tennis/6975d10662673af5aa14fdf9",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | WWEin 8mMonday Night RAW",
+                    "name": "ST | WWELive nowMonday Night RAW",
                     "url": "https://www.streameast24.com/live/wwe/match/wwe-vs-monday-night-raw/69b7b88262673af5aa1508ae",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
