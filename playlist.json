@@ -42,7 +42,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | WWELive nowNXT",
+                    "name": "ST | WWEEndedNXT",
                     "url": "https://www.streameast24.com/live/wwe/match/wwe-vs-nxt/69ba5b81876fbdae5c3ca342",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -204,19 +204,19 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Cincinnati RedsLive nowCleveland Guardians",
+                    "name": "ST | Cincinnati RedsEndedCleveland Guardians",
                     "url": "https://www.streameast24.com/live/mlb/match/cincinnati-reds-vs-cleveland-guardians/69b90a0f62673af5aa1508ef",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Chicago CubsLive nowLos Angeles Angels",
+                    "name": "ST | Chicago CubsEndedLos Angeles Angels",
                     "url": "https://www.streameast24.com/live/mlb/match/chicago-cubs-vs-los-angeles-angels/69b90a0d62673af5aa1508e6",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Kansas City RoyalsLive nowArizona Diamondbacks",
+                    "name": "ST | Kansas City RoyalsEndedArizona Diamondbacks",
                     "url": "https://www.streameast24.com/live/mlb/match/kansas-city-royals-vs-arizona-diamondbacks/69b90a0f62673af5aa1508ee",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
