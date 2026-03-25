@@ -36,7 +36,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | WWELive nowMonday Night RAW",
+                    "name": "ST | WWEEndedMonday Night RAW",
                     "url": "https://www.streameast24.com/live/wwe/match/wwe-vs-monday-night-raw/69c244814dc2ba43704f303e",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -84,25 +84,25 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Texas RangersLive nowKansas City Royals",
+                    "name": "ST | Texas RangersEndedKansas City Royals",
                     "url": "https://www.streameast24.com/live/mlb/match/texas-rangers-vs-kansas-city-royals/69c0f3024dc2ba43704f3032",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Colorado RockiesLive nowDetroit Tigers",
+                    "name": "ST | Colorado RockiesEndedDetroit Tigers",
                     "url": "https://www.streameast24.com/live/mlb/match/colorado-rockies-vs-detroit-tigers/69c0f3024dc2ba43704f3031",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Arizona DiamondbacksLive nowCleveland Guardians",
+                    "name": "ST | Arizona DiamondbacksEndedCleveland Guardians",
                     "url": "https://www.streameast24.com/live/mlb/match/arizona-diamondbacks-vs-cleveland-guardians/69c0f3024dc2ba43704f3030",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Los Angeles DodgersLive nowLos Angeles Angels",
+                    "name": "ST | Los Angeles DodgersEndedLos Angeles Angels",
                     "url": "https://www.streameast24.com/live/mlb/match/los-angeles-dodgers-vs-los-angeles-angels/69c0f3024dc2ba43704f3039",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
