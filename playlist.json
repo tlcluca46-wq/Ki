@@ -6,7 +6,7 @@
             "name": "Eventi Live",
             "stations": [
                 {
-                    "name": "ST | WWE: NXTin 59mLive",
+                    "name": "ST | WWE: NXTLive nowLive",
                     "url": "https://www.streameast24.com/live/wwe/match/wwe-nxt-vs-live/69c30762d104586c6cd65568",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -30,7 +30,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Miami Openin 1h 59mTennis",
+                    "name": "ST | Miami OpenLive nowTennis",
                     "url": "https://www.streameast24.com/live/tennis/match/miami-open-vs-tennis/69bc940eb29ed7b3ffc30f1f",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -60,25 +60,25 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Charlotte Hornetsin 13mSacramento Kings",
+                    "name": "ST | Charlotte HornetsLive nowSacramento Kings",
                     "url": "https://www.streameast24.com/live/nba/match/charlotte-hornets-vs-sacramento-kings/69bc9845b29ed7b3ffc31021",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | New York Knicksin 13mNew Orleans Pelicans",
+                    "name": "ST | New York KnicksLive nowNew Orleans Pelicans",
                     "url": "https://www.streameast24.com/live/nba/match/new-york-knicks-vs-new-orleans-pelicans/69bc9845b29ed7b3ffc31022",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Cleveland Cavaliersin 13mOrlando Magic",
+                    "name": "ST | Cleveland CavaliersLive nowOrlando Magic",
                     "url": "https://www.streameast24.com/live/nba/match/cleveland-cavaliers-vs-orlando-magic/69bc9845b29ed7b3ffc31023",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Phoenix Sunsin 13mDenver Nuggets",
+                    "name": "ST | Phoenix SunsLive nowDenver Nuggets",
                     "url": "https://www.streameast24.com/live/nba/match/phoenix-suns-vs-denver-nuggets/69bc9845b29ed7b3ffc31024",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -108,7 +108,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Milwaukee BrewersLive nowCincinnati Reds",
+                    "name": "ST | Milwaukee BrewersEndedCincinnati Reds",
                     "url": "https://www.streameast24.com/live/mlb/match/milwaukee-brewers-vs-cincinnati-reds/69c0f3024dc2ba43704f303a",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -162,7 +162,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | RangersLive nowSenators",
+                    "name": "ST | RangersEndedSenators",
                     "url": "https://www.streameast24.com/live/nhl/match/rangers-vs-senators/69c0f3024dc2ba43704f303c",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
