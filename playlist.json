@@ -6,7 +6,7 @@
             "name": "Eventi Live",
             "stations": [
                 {
-                    "name": "ST | Miami Openin 1h 58mTennis",
+                    "name": "ST | Miami OpenLive nowTennis",
                     "url": "https://www.streameast24.com/live/tennis/match/miami-open-vs-tennis/69bc940eb29ed7b3ffc30f1f",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -168,73 +168,73 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Indiana Pacersin 3mLos Angeles Lakers",
+                    "name": "ST | Indiana PacersLive nowLos Angeles Lakers",
                     "url": "https://www.streameast24.com/live/nba/match/indiana-pacers-vs-los-angeles-lakers/69bc9845b29ed7b3ffc31025",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Detroit Pistonsin 3mAtlanta Hawks",
+                    "name": "ST | Detroit PistonsLive nowAtlanta Hawks",
                     "url": "https://www.streameast24.com/live/nba/match/detroit-pistons-vs-atlanta-hawks/69bc9845b29ed7b3ffc31026",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Philadelphia 76ersin 3mChicago Bulls",
+                    "name": "ST | Philadelphia 76ersLive nowChicago Bulls",
                     "url": "https://www.streameast24.com/live/nba/match/philadelphia-76ers-vs-chicago-bulls/69bc9845b29ed7b3ffc31027",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Cleveland Cavaliersin 3mMiami Heat",
+                    "name": "ST | Cleveland CavaliersLive nowMiami Heat",
                     "url": "https://www.streameast24.com/live/nba/match/cleveland-cavaliers-vs-miami-heat/69bc9845b29ed7b3ffc31028",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Boston Celticsin 3mOklahoma City Thunder",
+                    "name": "ST | Boston CelticsLive nowOklahoma City Thunder",
                     "url": "https://www.streameast24.com/live/nba/match/boston-celtics-vs-oklahoma-city-thunder/69bc9845b29ed7b3ffc31029",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Memphis Grizzliesin 3mSan Antonio Spurs",
+                    "name": "ST | Memphis GrizzliesLive nowSan Antonio Spurs",
                     "url": "https://www.streameast24.com/live/nba/match/memphis-grizzlies-vs-san-antonio-spurs/69bc9845b29ed7b3ffc3102a",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Utah Jazzin 3mWashington Wizards",
+                    "name": "ST | Utah JazzLive nowWashington Wizards",
                     "url": "https://www.streameast24.com/live/nba/match/utah-jazz-vs-washington-wizards/69bc9845b29ed7b3ffc3102b",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Minnesota Timberwolvesin 3mHouston Rockets",
+                    "name": "ST | Minnesota TimberwolvesLive nowHouston Rockets",
                     "url": "https://www.streameast24.com/live/nba/match/minnesota-timberwolves-vs-houston-rockets/69bc9845b29ed7b3ffc3102c",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Portland Trail Blazersin 3mMilwaukee Bucks",
+                    "name": "ST | Portland Trail BlazersLive nowMilwaukee Bucks",
                     "url": "https://www.streameast24.com/live/nba/match/portland-trail-blazers-vs-milwaukee-bucks/69bc9845b29ed7b3ffc3102d",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Golden State Warriorsin 3mBrooklyn Nets",
+                    "name": "ST | Golden State WarriorsLive nowBrooklyn Nets",
                     "url": "https://www.streameast24.com/live/nba/match/golden-state-warriors-vs-brooklyn-nets/69bc9845b29ed7b3ffc3102e",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Denver Nuggetsin 3mDallas Mavericks",
+                    "name": "ST | Denver NuggetsLive nowDallas Mavericks",
                     "url": "https://www.streameast24.com/live/nba/match/denver-nuggets-vs-dallas-mavericks/69bc9845b29ed7b3ffc3102f",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | LA Clippersin 3mToronto Raptors",
+                    "name": "ST | LA ClippersLive nowToronto Raptors",
                     "url": "https://www.streameast24.com/live/nba/match/la-clippers-vs-toronto-raptors/69bc9845b29ed7b3ffc31030",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -342,13 +342,13 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Sabresin 28mBruins",
+                    "name": "ST | SabresLive nowBruins",
                     "url": "https://www.streameast24.com/live/nhl/match/sabres-vs-bruins/69c396044dc2ba43704f307e",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Maple Leafin 28mRangers",
+                    "name": "ST | Maple LeafLive nowRangers",
                     "url": "https://www.streameast24.com/live/nhl/match/maple-leaf-vs-rangers/69c396044dc2ba43704f307f",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
