@@ -18,6 +18,12 @@
                     "isHost": true
                 },
                 {
+                    "name": "ST | F1 Japanese Grand PrixLive nowLive",
+                    "url": "https://www.streameast24.com/live/f1/match/f1-japanese-grand-prix-vs-live/69bc94c1b29ed7b3ffc30f6d",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
                     "name": "ST | GibraltarLive nowLatvia",
                     "url": "https://www.streameast24.com/live/uefa-nations-league/match/gibraltar-vs-latvia/69c4e7814dc2ba43704f309b",
                     "image": "https://www.streameast24.com/favicon.ico",
@@ -90,7 +96,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Miami Openin 1h 59mTennis",
+                    "name": "ST | Miami OpenLive nowTennis",
                     "url": "https://www.streameast24.com/live/tennis/match/miami-open-vs-tennis/69bc940eb29ed7b3ffc30f1f",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -216,19 +222,19 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Detroit Pistonsin 10mNew Orleans Pelicans",
+                    "name": "ST | Detroit PistonsLive nowNew Orleans Pelicans",
                     "url": "https://www.streameast24.com/live/nba/match/detroit-pistons-vs-new-orleans-pelicans/69bc9845b29ed7b3ffc31031",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Orlando Magicin 10mSacramento Kings",
+                    "name": "ST | Orlando MagicLive nowSacramento Kings",
                     "url": "https://www.streameast24.com/live/nba/match/orlando-magic-vs-sacramento-kings/69bc9845b29ed7b3ffc31032",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Charlotte Hornetsin 10mNew York Knicks",
+                    "name": "ST | Charlotte HornetsLive nowNew York Knicks",
                     "url": "https://www.streameast24.com/live/nba/match/charlotte-hornets-vs-new-york-knicks/69bc9845b29ed7b3ffc31033",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -300,13 +306,13 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | SabresLive nowBruins",
+                    "name": "ST | SabresEndedBruins",
                     "url": "https://www.streameast24.com/live/nhl/match/sabres-vs-bruins/69c396044dc2ba43704f307e",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Maple LeafLive nowRangers",
+                    "name": "ST | Maple LeafEndedRangers",
                     "url": "https://www.streameast24.com/live/nhl/match/maple-leaf-vs-rangers/69c396044dc2ba43704f307f",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
