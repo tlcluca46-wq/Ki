@@ -96,7 +96,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | WWELive nowNXT",
+                    "name": "ST | WWEEndedNXT",
                     "url": "https://www.streameast24.com/live/wwe/match/wwe-vs-nxt/69c639014dc2ba43704f30ca",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -108,7 +108,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Brumbiesin 6mWaratahs",
+                    "name": "ST | BrumbiesLive nowWaratahs",
                     "url": "https://www.streameast24.com/live/rugby/match/brumbies-vs-waratahs/69bc99adb29ed7b3ffc310df",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -162,7 +162,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | ChinaLive nowCuracao",
+                    "name": "ST | ChinaEndedCuracao",
                     "url": "https://www.streameast24.com/live/international-friendlies/match/china-vs-curacao/69c4e7814dc2ba43704f30a4",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
