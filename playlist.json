@@ -108,36 +108,6 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Ealing Trailfinders WomenLive nowLoughborough Lightning",
-                    "url": "https://www.streameast24.com/live/rugby/match/ealing-trailfinders-women-vs-loughborough-lightning/69bc99adb29ed7b3ffc310f9",
-                    "image": "https://www.streameast24.com/favicon.ico",
-                    "isHost": true
-                },
-                {
-                    "name": "ST | Gloucester Hartpury WomenLive nowLeicester Tigers Women",
-                    "url": "https://www.streameast24.com/live/rugby/match/gloucester-hartpury-women-vs-leicester-tigers-women/69bc99adb29ed7b3ffc310fa",
-                    "image": "https://www.streameast24.com/favicon.ico",
-                    "isHost": true
-                },
-                {
-                    "name": "ST | Sale SharksLive nowBath",
-                    "url": "https://www.streameast24.com/live/rugby/match/sale-sharks-vs-bath/69bc99adb29ed7b3ffc310fb",
-                    "image": "https://www.streameast24.com/favicon.ico",
-                    "isHost": true
-                },
-                {
-                    "name": "ST | Nottingham RugbyLive nowChinnor RFC",
-                    "url": "https://www.streameast24.com/live/rugby/match/nottingham-rugby-vs-chinnor-rfc/69bc99adb29ed7b3ffc310fc",
-                    "image": "https://www.streameast24.com/favicon.ico",
-                    "isHost": true
-                },
-                {
-                    "name": "ST | Stade FrancaisLive nowClermont Auvergne",
-                    "url": "https://www.streameast24.com/live/rugby/match/stade-francais-vs-clermont-auvergne/69bc99adb29ed7b3ffc310fd",
-                    "image": "https://www.streameast24.com/favicon.ico",
-                    "isHost": true
-                },
-                {
                     "name": "ST | EibarLive nowLas Palmas",
                     "url": "https://www.streameast24.com/live/la-liga-2/match/eibar-vs-las-palmas/69c8dc034dc2ba43704f319b",
                     "image": "https://www.streameast24.com/favicon.ico",
@@ -180,13 +150,13 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | New Zealandin 39mChile",
+                    "name": "ST | New Zealandin 3mChile",
                     "url": "https://www.streameast24.com/live/international-friendlies/match/new-zealand-vs-chile/69c8dc034dc2ba43704f319d",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Cape Verde Islandsin 39mFinland",
+                    "name": "ST | Cape Verde Islandsin 3mFinland",
                     "url": "https://www.streameast24.com/live/international-friendlies/match/cape-verde-islands-vs-finland/69c8dc034dc2ba43704f319f",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -204,7 +174,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Newell s Old Boysin 39mAcassuso",
+                    "name": "ST | Newell s Old Boysin 3mAcassuso",
                     "url": "https://www.streameast24.com/live/copa-argentina/match/newell-s-old-boys-vs-acassuso/69c8dc034dc2ba43704f31a1",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -252,7 +222,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Atlasin 39mGuadalajara",
+                    "name": "ST | Atlasin 3mGuadalajara",
                     "url": "https://www.streameast24.com/live/club-friendly/match/atlas-vs-guadalajara/69c8dc034dc2ba43704f31a7",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -294,19 +264,19 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | New Orleans Pelicansin 39mHouston Rockets",
+                    "name": "ST | New Orleans Pelicansin 3mHouston Rockets",
                     "url": "https://www.streameast24.com/live/nba/match/new-orleans-pelicans-vs-houston-rockets/69bc9845b29ed7b3ffc3104a",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Oklahoma City Thunderin 39mNew York Knicks",
+                    "name": "ST | Oklahoma City Thunderin 3mNew York Knicks",
                     "url": "https://www.streameast24.com/live/nba/match/oklahoma-city-thunder-vs-new-york-knicks/69bc9845b29ed7b3ffc3104b",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Denver Nuggetsin 39mGolden State Warriors",
+                    "name": "ST | Denver Nuggetsin 3mGolden State Warriors",
                     "url": "https://www.streameast24.com/live/nba/match/denver-nuggets-vs-golden-state-warriors/69bc9845b29ed7b3ffc3104c",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -420,7 +390,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Seattle Marinersin 39mCleveland Guardians",
+                    "name": "ST | Seattle Marinersin 3mCleveland Guardians",
                     "url": "https://www.streameast24.com/live/mlb/match/seattle-mariners-vs-cleveland-guardians/69c8dc044dc2ba43704f31b2",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -492,13 +462,13 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Devilsin 39mBlackhawks",
+                    "name": "ST | Devilsin 3mBlackhawks",
                     "url": "https://www.streameast24.com/live/nhl/match/devils-vs-blackhawks/69c8dc054dc2ba43704f31b7",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Flyersin 39mStars",
+                    "name": "ST | Flyersin 3mStars",
                     "url": "https://www.streameast24.com/live/nhl/match/flyers-vs-stars/69c8dc054dc2ba43704f31b8",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
