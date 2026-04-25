@@ -6,14 +6,26 @@
             "name": "Eventi Live",
             "stations": [
                 {
-                    "name": "ST | Real BetisLive nowReal Madrid",
-                    "url": "https://www.streameast24.com/live/important-games/match/real-betis-vs-real-madrid/69eb23014dc2ba43704f386b",
+                    "name": "ST | NFL Draft 2026 - Day 2Live nowLive",
+                    "url": "https://www.streameast24.com/live/nfl/match/nfl-draft-2026-day-2-vs-live/69eb23444dc2ba43704f3896",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | NFL Draft 2026 - Day 2Live nowLive",
-                    "url": "https://www.streameast24.com/live/nfl/match/nfl-draft-2026-day-2-vs-live/69eb23444dc2ba43704f3896",
+                    "name": "ST | Houston RocketsLive nowLos Angeles Lakers",
+                    "url": "https://www.streameast24.com/live/nba/match/houston-rockets-vs-los-angeles-lakers/69e7aca44dc2ba43704f3703",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Philadelphia 76ersLive nowBoston Celtics",
+                    "url": "https://www.streameast24.com/live/nba/match/philadelphia-76ers-vs-boston-celtics/69e7aca74dc2ba43704f3705",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Portland Trail BlazersLive nowSan Antonio Spurs",
+                    "url": "https://www.streameast24.com/live/nba/match/portland-trail-blazers-vs-san-antonio-spurs/69e7aca64dc2ba43704f3704",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
@@ -60,7 +72,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | WWEin 18mFriday Night SmackDown",
+                    "name": "ST | WWELive nowFriday Night SmackDown",
                     "url": "https://www.streameast24.com/live/wwe/match/wwe-vs-friday-night-smackdown/69eb230c4dc2ba43704f3871",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -252,25 +264,25 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Atlanta Bravesin 3mPhiladelphia Phillies",
+                    "name": "ST | Atlanta BravesLive nowPhiladelphia Phillies",
                     "url": "https://www.streameast24.com/live/mlb/match/atlanta-braves-vs-philadelphia-phillies/69eb233a4dc2ba43704f388f",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Milwaukee Brewersin 28mPittsburgh Pirates",
+                    "name": "ST | Milwaukee BrewersLive nowPittsburgh Pirates",
                     "url": "https://www.streameast24.com/live/mlb/match/milwaukee-brewers-vs-pittsburgh-pirates/69eb233b4dc2ba43704f3890",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Chicago White Soxin 28mWashington Nationals",
+                    "name": "ST | Chicago White SoxLive nowWashington Nationals",
                     "url": "https://www.streameast24.com/live/mlb/match/chicago-white-sox-vs-washington-nationals/69eb233c4dc2ba43704f3891",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Kansas City Royalsin 28mLos Angeles Angels",
+                    "name": "ST | Kansas City RoyalsLive nowLos Angeles Angels",
                     "url": "https://www.streameast24.com/live/mlb/match/kansas-city-royals-vs-los-angeles-angels/69eb233d4dc2ba43704f3892",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
