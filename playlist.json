@@ -18,6 +18,24 @@
                     "isHost": true
                 },
                 {
+                    "name": "ST | Detroit PistonsLive nowOrlando Magic",
+                    "url": "https://www.streameast24.com/live/nba/match/detroit-pistons-vs-orlando-magic/69e7acbd4dc2ba43704f3715",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Cleveland CavaliersLive nowToronto Raptors",
+                    "url": "https://www.streameast24.com/live/nba/match/cleveland-cavaliers-vs-toronto-raptors/69e7acbe4dc2ba43704f3716",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Los Angeles LakersLive nowHouston Rockets",
+                    "url": "https://www.streameast24.com/live/nba/match/los-angeles-lakers-vs-houston-rockets/69e7acc04dc2ba43704f3717",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
                     "name": "ST | Skye NicolsonLive nowMariah Turner",
                     "url": "https://www.streameast24.com/live/boxing/match/skye-nicolson-vs-mariah-turner/69e887114dc2ba43704f3781",
                     "image": "https://www.streameast24.com/favicon.ico",
@@ -180,7 +198,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Milwaukee Brewersin 11mArizona Diamondbacks",
+                    "name": "ST | Milwaukee BrewersLive nowArizona Diamondbacks",
                     "url": "https://www.streameast24.com/live/mlb/match/milwaukee-brewers-vs-arizona-diamondbacks/69f1babc4dc2ba43704f39c8",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -198,7 +216,7 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Flyersin 1mPenguins",
+                    "name": "ST | FlyersLive nowPenguins",
                     "url": "https://www.streameast24.com/live/nhl/match/flyers-vs-penguins/69f1bac24dc2ba43704f39cb",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
