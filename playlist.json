@@ -6,14 +6,26 @@
             "name": "Eventi Live",
             "stations": [
                 {
-                    "name": "ST | Nottingham ForestLive nowAston Villa",
-                    "url": "https://www.streameast24.com/live/important-games/match/nottingham-forest-vs-aston-villa/69f30c024dc2ba43704f39cc",
+                    "name": "ST | Leeds Unitedin 10h 25mBurnley",
+                    "url": "https://www.streameast24.com/live/premier-league/match/leeds-united-vs-burnley/69f45d814dc2ba43704f39e1",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Sporting BragaLive nowFreiburg",
-                    "url": "https://www.streameast24.com/live/uefa-europa-league/match/sporting-braga-vs-freiburg/69f30c034dc2ba43704f39cd",
+                    "name": "ST | F1 Miami Grand PrixLive nowLive",
+                    "url": "https://www.streameast24.com/live/f1/match/f1-miami-grand-prix-vs-live/69ec78064dc2ba43704f390f",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Gironain 10h 25mMallorca",
+                    "url": "https://www.streameast24.com/live/la-liga/match/girona-vs-mallorca/69f45d834dc2ba43704f39e2",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Pisain 10h 10mLecce",
+                    "url": "https://www.streameast24.com/live/serie-a/match/pisa-vs-lecce/69f45d844dc2ba43704f39e3",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
@@ -24,32 +36,86 @@
                     "isHost": true
                 },
                 {
+                    "name": "ST | WWEin 14h 55mFriday Night SmackDown",
+                    "url": "https://www.streameast24.com/live/wwe/match/wwe-vs-friday-night-smackdown/69f45d874dc2ba43704f39e4",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
                     "name": "ST | Indiana FeverLive nowDallas Wings",
                     "url": "https://www.streameast24.com/live/wnba/match/indiana-fever-vs-dallas-wings/69f30c094dc2ba43704f39ce",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Rayo VallecanoLive nowStrasbourg",
-                    "url": "https://www.streameast24.com/live/uefa-europa-conference-league/match/rayo-vallecano-vs-strasbourg/69f30c0a4dc2ba43704f39cf",
+                    "name": "ST | Minnesota Lynxin 14h 25mToronto tempo",
+                    "url": "https://www.streameast24.com/live/wnba/match/minnesota-lynx-vs-toronto-tempo/69f45d894dc2ba43704f39e5",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Shakhtar DonetskLive nowCrystal Palace",
-                    "url": "https://www.streameast24.com/live/uefa-europa-conference-league/match/shakhtar-donetsk-vs-crystal-palace/69f30c0b4dc2ba43704f39d0",
+                    "name": "ST | Rizesporin 5h 25mKonyaspor",
+                    "url": "https://www.streameast24.com/live/superlig/match/rizespor-vs-konyaspor/69f45d8a4dc2ba43704f39e6",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Al AkhdoudLive nowAl Ittifaq",
-                    "url": "https://www.streameast24.com/live/saudi-pro-league/match/al-akhdoud-vs-al-ittifaq/69f30c0c4dc2ba43704f39d1",
+                    "name": "ST | Gaziantep FKin 8h 25mBesiktas",
+                    "url": "https://www.streameast24.com/live/superlig/match/gaziantep-fk-vs-besiktas/69f45d8b4dc2ba43704f39e7",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Al KholoodLive nowAl Fayha",
-                    "url": "https://www.streameast24.com/live/saudi-pro-league/match/al-kholood-vs-al-fayha/69f30c0d4dc2ba43704f39d2",
+                    "name": "ST | Livingstonin 10h 10mAberdeen",
+                    "url": "https://www.streameast24.com/live/scottish-premiership/match/livingston-vs-aberdeen/69f45d8c4dc2ba43704f39e8",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | FC Andorrain 5h 40mAlbacete",
+                    "url": "https://www.streameast24.com/live/la-liga-2/match/fc-andorra-vs-albacete/69f45d8e4dc2ba43704f39e9",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Deportivo La Corunain 7h 55mLeganes",
+                    "url": "https://www.streameast24.com/live/la-liga-2/match/deportivo-la-coruna-vs-leganes/69f45d8f4dc2ba43704f39ea",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Real Zaragozain 10h 25mGranada",
+                    "url": "https://www.streameast24.com/live/la-liga-2/match/real-zaragoza-vs-granada/69f45d904dc2ba43704f39eb",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Fagiano Okayamain 14h 25mSanfrecce Hiroshima",
+                    "url": "https://www.streameast24.com/live/japan-j1-league/match/fagiano-okayama-vs-sanfrecce-hiroshima/69f45d914dc2ba43704f39ec",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Kyoto Sangain 14h 25mShimizu S Pulse",
+                    "url": "https://www.streameast24.com/live/japan-j1-league/match/kyoto-sanga-vs-shimizu-s-pulse/69f45d924dc2ba43704f39ed",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Tokyoin 14h 25mKawasaki Frontale",
+                    "url": "https://www.streameast24.com/live/japan-j1-league/match/tokyo-vs-kawasaki-frontale/69f45d934dc2ba43704f39ee",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Yokohama F Marinosin 14h 25mMito Hollyhock",
+                    "url": "https://www.streameast24.com/live/japan-j1-league/match/yokohama-f-marinos-vs-mito-hollyhock/69f45d944dc2ba43704f39ef",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Gamba Osakain 14h 25mVissel Kobe",
+                    "url": "https://www.streameast24.com/live/japan-j1-league/match/gamba-osaka-vs-vissel-kobe/69f45d954dc2ba43704f39f0",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
@@ -66,74 +132,116 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Atlanta HawksLive nowNew York Knicks",
-                    "url": "https://www.streameast24.com/live/nba/match/atlanta-hawks-vs-new-york-knicks/69e7acc14dc2ba43704f3718",
+                    "name": "ST | Orlando Magicin 14h 25mDetroit Pistons",
+                    "url": "https://www.streameast24.com/live/nba/match/orlando-magic-vs-detroit-pistons/69e7acc84dc2ba43704f371d",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Minnesota TimberwolvesLive nowDenver Nuggets",
-                    "url": "https://www.streameast24.com/live/nba/match/minnesota-timberwolves-vs-denver-nuggets/69e7acc44dc2ba43704f371a",
+                    "name": "ST | Houston Rocketsin 14h 25mLos Angeles Lakers",
+                    "url": "https://www.streameast24.com/live/nba/match/houston-rockets-vs-los-angeles-lakers/69e7acc94dc2ba43704f371e",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Philadelphia 76ersLive nowBoston Celtics",
-                    "url": "https://www.streameast24.com/live/nba/match/philadelphia-76ers-vs-boston-celtics/69e7acc54dc2ba43704f371b",
-                    "image": "https://www.streameast24.com/favicon.ico",
-                    "isHost": true
-                },
-                {
-                    "name": "ST | Atlanta BravesLive nowDetroit Tigers",
-                    "url": "https://www.streameast24.com/live/mlb/match/atlanta-braves-vs-detroit-tigers/69f30c1d4dc2ba43704f39d5",
-                    "image": "https://www.streameast24.com/favicon.ico",
-                    "isHost": true
-                },
-                {
-                    "name": "ST | Pittsburgh PiratesLive nowSt. Louis Cardinals",
-                    "url": "https://www.streameast24.com/live/mlb/match/pittsburgh-pirates-vs-st-louis-cardinals/69f30c1e4dc2ba43704f39d6",
-                    "image": "https://www.streameast24.com/favicon.ico",
-                    "isHost": true
-                },
-                {
-                    "name": "ST | Baltimore OriolesLive nowHouston Astros",
-                    "url": "https://www.streameast24.com/live/mlb/match/baltimore-orioles-vs-houston-astros/69f30c1f4dc2ba43704f39d7",
-                    "image": "https://www.streameast24.com/favicon.ico",
-                    "isHost": true
-                },
-                {
-                    "name": "ST | Cincinnati RedsLive nowColorado Rockies",
-                    "url": "https://www.streameast24.com/live/mlb/match/cincinnati-reds-vs-colorado-rockies/69f30c204dc2ba43704f39d8",
-                    "image": "https://www.streameast24.com/favicon.ico",
-                    "isHost": true
-                },
-                {
-                    "name": "ST | Philadelphia PhilliesLive nowSan Francisco Giants",
-                    "url": "https://www.streameast24.com/live/mlb/match/philadelphia-phillies-vs-san-francisco-giants/69f30c214dc2ba43704f39d9",
-                    "image": "https://www.streameast24.com/favicon.ico",
-                    "isHost": true
-                },
-                {
-                    "name": "ST | New York MetsLive nowWashington Nationals",
-                    "url": "https://www.streameast24.com/live/mlb/match/new-york-mets-vs-washington-nationals/69f30c224dc2ba43704f39da",
-                    "image": "https://www.streameast24.com/favicon.ico",
-                    "isHost": true
-                },
-                {
-                    "name": "ST | Milwaukee BrewersLive nowArizona Diamondbacks",
-                    "url": "https://www.streameast24.com/live/mlb/match/milwaukee-brewers-vs-arizona-diamondbacks/69f30c234dc2ba43704f39db",
-                    "image": "https://www.streameast24.com/favicon.ico",
-                    "isHost": true
-                },
-                {
-                    "name": "ST | Oakland AthleticsLive nowKansas City Royals",
-                    "url": "https://www.streameast24.com/live/mlb/match/oakland-athletics-vs-kansas-city-royals/69f30c244dc2ba43704f39dc",
+                    "name": "ST | Toronto Raptorsin 14h 25mCleveland Cavaliers",
+                    "url": "https://www.streameast24.com/live/nba/match/toronto-raptors-vs-cleveland-cavaliers/69e7acca4dc2ba43704f371f",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
                     "name": "ST | Minnesota TwinsLive nowToronto Blue Jays",
                     "url": "https://www.streameast24.com/live/mlb/match/minnesota-twins-vs-toronto-blue-jays/69f30c254dc2ba43704f39dd",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Chicago Cubsin 9h 45mArizona Diamondbacks",
+                    "url": "https://www.streameast24.com/live/mlb/match/chicago-cubs-vs-arizona-diamondbacks/69f45d9d4dc2ba43704f39f1",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Detroit Tigersin 14h 5mTexas Rangers",
+                    "url": "https://www.streameast24.com/live/mlb/match/detroit-tigers-vs-texas-rangers/69f45d9e4dc2ba43704f39f2",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Pittsburgh Piratesin 14h 10mCincinnati Reds",
+                    "url": "https://www.streameast24.com/live/mlb/match/pittsburgh-pirates-vs-cincinnati-reds/69f45d9f4dc2ba43704f39f3",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Washington Nationalsin 14h 10mMilwaukee Brewers",
+                    "url": "https://www.streameast24.com/live/mlb/match/washington-nationals-vs-milwaukee-brewers/69f45da14dc2ba43704f39f4",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Minnesota Twinsin 14h 25mToronto Blue Jays",
+                    "url": "https://www.streameast24.com/live/mlb/match/minnesota-twins-vs-toronto-blue-jays/69f45da24dc2ba43704f39f5",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | St. Louis Cardinalsin 14h 25mLos Angeles Dodgers",
+                    "url": "https://www.streameast24.com/live/mlb/match/st-louis-cardinals-vs-los-angeles-dodgers/69f45da34dc2ba43704f39f6",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Colorado Rockiesin 14h 25mAtlanta Braves",
+                    "url": "https://www.streameast24.com/live/mlb/match/colorado-rockies-vs-atlanta-braves/69f45da44dc2ba43704f39f7",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Los Angeles Angelsin 14h 25mNew York Mets",
+                    "url": "https://www.streameast24.com/live/mlb/match/los-angeles-angels-vs-new-york-mets/69f45da54dc2ba43704f39f8",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Seattle Marinersin 14h 25mKansas City Royals",
+                    "url": "https://www.streameast24.com/live/mlb/match/seattle-mariners-vs-kansas-city-royals/69f45da64dc2ba43704f39f9",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | San Diego Padresin 14h 25mChicago White Sox",
+                    "url": "https://www.streameast24.com/live/mlb/match/san-diego-padres-vs-chicago-white-sox/69f45da74dc2ba43704f39fa",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Oakland Athleticsin 14h 25mCleveland Guardians",
+                    "url": "https://www.streameast24.com/live/mlb/match/oakland-athletics-vs-cleveland-guardians/69f45da84dc2ba43704f39fb",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | New York Yankeesin 14h 30mBaltimore Orioles",
+                    "url": "https://www.streameast24.com/live/mlb/match/new-york-yankees-vs-baltimore-orioles/69f45da94dc2ba43704f39fc",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Miami Marlinsin 14h 35mPhiladelphia Phillies",
+                    "url": "https://www.streameast24.com/live/mlb/match/miami-marlins-vs-philadelphia-phillies/69f45daa4dc2ba43704f39fd",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Boston Red Soxin 14h 35mHouston Astros",
+                    "url": "https://www.streameast24.com/live/mlb/match/boston-red-sox-vs-houston-astros/69f45dab4dc2ba43704f39fe",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Tampa Bay Raysin 14h 35mSan Francisco Giants",
+                    "url": "https://www.streameast24.com/live/mlb/match/tampa-bay-rays-vs-san-francisco-giants/69f45dac4dc2ba43704f39ff",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
@@ -146,6 +254,30 @@
                 {
                     "name": "ST | WildLive nowStars",
                     "url": "https://www.streameast24.com/live/nhl/match/wild-vs-stars/69f30c2a4dc2ba43704f39df",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Canadeinsin 14h 25mLightning",
+                    "url": "https://www.streameast24.com/live/nhl/match/canadeins-vs-lightning/69f45daf4dc2ba43704f3a00",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Mammothin 14h 25mGolden Knights",
+                    "url": "https://www.streameast24.com/live/nhl/match/mammoth-vs-golden-knights/69f45db14dc2ba43704f3a01",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Bruinsin 14h 55mSabres",
+                    "url": "https://www.streameast24.com/live/nhl/match/bruins-vs-sabres/69f45db24dc2ba43704f3a02",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Rookie MinicampsLive nowlive",
+                    "url": "https://www.streameast24.com/live/nfl/match/rookie-minicamps-vs-live/69f45db34dc2ba43704f3a03",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
