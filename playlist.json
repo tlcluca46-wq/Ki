@@ -6,6 +6,18 @@
             "name": "Eventi Live",
             "stations": [
                 {
+                    "name": "ST | UFC Fight Night Della Maddalenain 38mPrates",
+                    "url": "https://www.streameast24.com/live/ufc/match/ufc-fight-night-della-maddalena-vs-prates/69e885df4dc2ba43704f3774",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
+                    "name": "ST | Naoya InoueLive nowJunto Nakatani",
+                    "url": "https://www.streameast24.com/live/boxing/match/naoya-inoue-vs-junto-nakatani/69e887134dc2ba43704f3783",
+                    "image": "https://www.streameast24.com/favicon.ico",
+                    "isHost": true
+                },
+                {
                     "name": "ST | Leeds UnitedLive nowBurnley",
                     "url": "https://www.streameast24.com/live/premier-league/match/leeds-united-vs-burnley/69f45d814dc2ba43704f39e1",
                     "image": "https://www.streameast24.com/favicon.ico",
