@@ -6,13 +6,13 @@
             "name": "Eventi Live",
             "stations": [
                 {
-                    "name": "ST | Oklahoma City Thunderin 12mLos Angeles Lakers",
+                    "name": "ST | Oklahoma City ThunderLive nowLos Angeles Lakers",
                     "url": "https://www.streameast24.com/live/nba/match/oklahoma-city-thunder-vs-los-angeles-lakers/69f85b674dc2ba43704f3b54",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Detroit Pistonsin 12mCleveland Cavaliers",
+                    "name": "ST | Detroit PistonsLive nowCleveland Cavaliers",
                     "url": "https://www.streameast24.com/live/nba/match/detroit-pistons-vs-cleveland-cavaliers/69f9a38f4dc2ba43704f3bde",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -30,49 +30,49 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Shimizu S Pulsein 12mCerezo Osaka",
+                    "name": "ST | Shimizu S PulseLive nowCerezo Osaka",
                     "url": "https://www.streameast24.com/live/japan-j1-league/match/shimizu-s-pulse-vs-cerezo-osaka/69f9a3864dc2ba43704f3bd8",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | V Varen Nagasakiin 12mFagiano Okayama",
+                    "name": "ST | V Varen NagasakiLive nowFagiano Okayama",
                     "url": "https://www.streameast24.com/live/japan-j1-league/match/v-varen-nagasaki-vs-fagiano-okayama/69f9a3884dc2ba43704f3bd9",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Avispa Fukuokain 12mKyoto Sanga",
+                    "name": "ST | Avispa FukuokaLive nowKyoto Sanga",
                     "url": "https://www.streameast24.com/live/japan-j1-league/match/avispa-fukuoka-vs-kyoto-sanga/69f9a3894dc2ba43704f3bda",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Nagoya Grampusin 12mGamba Osaka",
+                    "name": "ST | Nagoya GrampusLive nowGamba Osaka",
                     "url": "https://www.streameast24.com/live/japan-j1-league/match/nagoya-grampus-vs-gamba-osaka/69f9a38a4dc2ba43704f3bdb",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Sanfrecce Hiroshimain 12mVissel Kobe",
+                    "name": "ST | Sanfrecce HiroshimaLive nowVissel Kobe",
                     "url": "https://www.streameast24.com/live/japan-j1-league/match/sanfrecce-hiroshima-vs-vissel-kobe/69f9a38b4dc2ba43704f3bdc",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Tokyoin 12mJEF United",
+                    "name": "ST | TokyoLive nowJEF United",
                     "url": "https://www.streameast24.com/live/japan-j1-league/match/tokyo-vs-jef-united/69f9a38d4dc2ba43704f3bdd",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Oklahoma City Thunderin 12mLos Angeles Lakers",
+                    "name": "ST | Oklahoma City ThunderLive nowLos Angeles Lakers",
                     "url": "https://www.streameast24.com/live/nba/match/oklahoma-city-thunder-vs-los-angeles-lakers/69f85b674dc2ba43704f3b54",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Detroit Pistonsin 12mCleveland Cavaliers",
+                    "name": "ST | Detroit PistonsLive nowCleveland Cavaliers",
                     "url": "https://www.streameast24.com/live/nba/match/detroit-pistons-vs-cleveland-cavaliers/69f9a38f4dc2ba43704f3bde",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
@@ -108,67 +108,67 @@
                     "isHost": true
                 },
                 {
-                    "name": "ST | Houston Astrosin 12mLos Angeles Dodgers",
+                    "name": "ST | Houston AstrosLive nowLos Angeles Dodgers",
                     "url": "https://www.streameast24.com/live/mlb/match/houston-astros-vs-los-angeles-dodgers/69f9a3a44dc2ba43704f3be5",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Colorado Rockiesin 12mNew York Mets",
+                    "name": "ST | Colorado RockiesLive nowNew York Mets",
                     "url": "https://www.streameast24.com/live/mlb/match/colorado-rockies-vs-new-york-mets/69f9a3a54dc2ba43704f3be6",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Los Angeles Angelsin 12mChicago White Sox",
+                    "name": "ST | Los Angeles AngelsLive nowChicago White Sox",
                     "url": "https://www.streameast24.com/live/mlb/match/los-angeles-angels-vs-chicago-white-sox/69f9a3a64dc2ba43704f3be7",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Arizona Diamondbacksin 12mPittsburgh Pirates",
+                    "name": "ST | Arizona DiamondbacksLive nowPittsburgh Pirates",
                     "url": "https://www.streameast24.com/live/mlb/match/arizona-diamondbacks-vs-pittsburgh-pirates/69f9a3a74dc2ba43704f3be8",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Seattle Marinersin 12mAtlanta Braves",
+                    "name": "ST | Seattle MarinersLive nowAtlanta Braves",
                     "url": "https://www.streameast24.com/live/mlb/match/seattle-mariners-vs-atlanta-braves/69f9a3a84dc2ba43704f3be9",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | San Francisco Giantsin 12mSan Diego Padres",
+                    "name": "ST | San Francisco GiantsLive nowSan Diego Padres",
                     "url": "https://www.streameast24.com/live/mlb/match/san-francisco-giants-vs-san-diego-padres/69f9a3a94dc2ba43704f3bea",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | New York Yankeesin 17mTexas Rangers",
+                    "name": "ST | New York YankeesLive nowTexas Rangers",
                     "url": "https://www.streameast24.com/live/mlb/match/new-york-yankees-vs-texas-rangers/69f9a3aa4dc2ba43704f3beb",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Kansas City Royalsin 52mCleveland Guardians",
+                    "name": "ST | Kansas City Royalsin 22mCleveland Guardians",
                     "url": "https://www.streameast24.com/live/mlb/match/kansas-city-royals-vs-cleveland-guardians/69f9a3ab4dc2ba43704f3bec",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Chicago Cubsin 52mCincinnati Reds",
+                    "name": "ST | Chicago Cubsin 22mCincinnati Reds",
                     "url": "https://www.streameast24.com/live/mlb/match/chicago-cubs-vs-cincinnati-reds/69f9a3ac4dc2ba43704f3bed",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | St. Louis Cardinalsin 57mMilwaukee Brewers",
+                    "name": "ST | St. Louis Cardinalsin 27mMilwaukee Brewers",
                     "url": "https://www.streameast24.com/live/mlb/match/st-louis-cardinals-vs-milwaukee-brewers/69f9a3ad4dc2ba43704f3bee",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
                 },
                 {
-                    "name": "ST | Avalanchein 12mWild",
+                    "name": "ST | AvalancheLive nowWild",
                     "url": "https://www.streameast24.com/live/nhl/match/avalanche-vs-wild/69f9a3b04dc2ba43704f3bef",
                     "image": "https://www.streameast24.com/favicon.ico",
                     "isHost": true
